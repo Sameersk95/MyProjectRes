@@ -238,44 +238,42 @@
 <!-- Image Gallery -->
 <div class="container my-5">
   <div class="row g-3">
-    <div class="col-12 col-md-4"><img src="pic1.jpg" class="img-fluid gallery-img" alt="Gallery Image 1"></div>
-    <div class="col-12 col-md-4"><img src="pic4.jpg" class="img-fluid gallery-img" alt="Gallery Image 2"></div>
-    <div class="col-12 col-md-4"><img src="pic3.jpg" class="img-fluid gallery-img" alt="Gallery Image 3"></div>
-    <div class="col-12 col-md-4"><img src="pic5.jpg" class="img-fluid gallery-img" alt="Gallery Image 4"></div>
-    <div class="col-12 col-md-4"><img src="pic6.jpg" class="img-fluid gallery-img" alt="Gallery Image 5"></div>
-    <div class="col-12 col-md-4"><img src="pic7.jpg" class="img-fluid gallery-img" alt="Gallery Image 6"></div>
-    <div class="col-12 col-md-4"><img src="pic8.jpg" class="img-fluid gallery-img" alt="Gallery Image 7"></div>
-    <div class="col-12 col-md-4"><img src="pic9.jpg" class="img-fluid gallery-img" alt="Gallery Image 8"></div>
-    <div class="col-12 col-md-4"><img src="pic10.jpg" class="img-fluid gallery-img" alt="Gallery Image 9"></div>
+    <div class="col-12 col-md-4"><img src="pic1.jpg" class="img-fluid gallery-img" alt="Gallery Image 1" loading="lazy"></div>
+    <div class="col-12 col-md-4"><img src="pic4.jpg" class="img-fluid gallery-img" alt="Gallery Image 2" loading="lazy"></div>
+    <div class="col-12 col-md-4"><img src="pic3.jpg" class="img-fluid gallery-img" alt="Gallery Image 3" loading="lazy"></div>
+    <div class="col-12 col-md-4"><img src="pic5.jpg" class="img-fluid gallery-img" alt="Gallery Image 4" loading="lazy"></div>
+    <div class="col-12 col-md-4"><img src="pic6.jpg" class="img-fluid gallery-img" alt="Gallery Image 5" loading="lazy"></div>
+    <div class="col-12 col-md-4"><img src="pic7.jpg" class="img-fluid gallery-img" alt="Gallery Image 6" loading="lazy"></div>
+    <div class="col-12 col-md-4"><img src="pic8.jpg" class="img-fluid gallery-img" alt="Gallery Image 7" loading="lazy"></div>
+    <div class="col-12 col-md-4"><img src="pic9.jpg" class="img-fluid gallery-img" alt="Gallery Image 8" loading="lazy"></div>
+    <div class="col-12 col-md-4"><img src="pic10.jpg" class="img-fluid gallery-img" alt="Gallery Image 9" loading="lazy"></div>
   </div>
 </div>
 
-<!-- About Section -->
+<!-- About Section (Image on top mobile) -->
 <div class="container my-5">
   <div class="row align-items-stretch flex-column flex-md-row">
-    <!-- Text -->
-    <div class="col-12 col-md-6 about-text d-flex flex-column justify-content-center order-1">
+    <div class="col-12 col-md-6 d-flex align-items-stretch order-1 order-md-2">
+      <img src="side.jpg" class="about-img" alt="Rangrezza Restaurant">
+    </div>
+    <div class="col-12 col-md-6 about-text d-flex flex-column justify-content-center order-2 order-md-1">
       <h1 class="about-subtitle">About</h1>
       <h1 class="about-title">Rangrezza</h1>
-      <p>In the bustling heart of Gorakhpur, a remarkable chapter in our city's history was penned in the year 2018 — the birth of Rangrezza Restaurant...</p>
+      <p>In the bustling heart of Gorakhpur, a remarkable chapter in our city's history was penned in the year 2018...</p>
       <p>Rangrezza, with its exquisite charm and inviting atmosphere, became not just a place to eat...</p>
       <p>The menu at Rangrezza was a symphony of flavors — a fusion of culinary traditions...</p>
       <a href="#" class="btn read-more-btn mt-3 align-self-start">Read More</a>
     </div>
-    <!-- Image -->
-    <div class="col-12 col-md-6 d-flex align-items-stretch order-2">
-      <img src="side.jpg" class="about-img" alt="Rangrezza Restaurant">
-    </div>
   </div>
 </div>
 
-<!-- Next Section -->
+<!-- Next Section (Image on top mobile) -->
 <div class="container my-5 pt-5">
-  <div class="row align-items-stretch">
-    <div class="col-12 col-md-6 d-flex align-items-stretch mb-4 mb-md-0">
+  <div class="row align-items-stretch flex-column flex-md-row">
+    <div class="col-12 col-md-6 d-flex align-items-stretch order-1 order-md-1 mb-4 mb-md-0">
       <img src="side2.jpg" class="about-img" alt="Delicious Food">
     </div>
-    <div class="col-12 col-md-6 about-text d-flex flex-column justify-content-center">
+    <div class="col-12 col-md-6 about-text d-flex flex-column justify-content-center order-2 order-md-2">
       <h2 class="next-title mb-4">Come for our fresh, delicious food you won’t forget.</h2>
       <p>We have something for everyone, giving our customers a variety of meal options...</p>
       <p>Enjoy the dishes made from our original recipes as we craft the old recipes while adding our ultimate twist...</p>
@@ -307,8 +305,8 @@
 
 <!-- Beverages -->
 <div class="container menu-card mt-5">
-  <div class="row align-items-center">
-    <div class="col-md-7">
+  <div class="row align-items-center flex-column flex-md-row">
+    <div class="col-12 col-md-7 order-2 order-md-1">
       <h3>Beverages</h3>
       <ul>
         <li>Masala Chai</li>
@@ -321,15 +319,17 @@
         <li>Cold Coffee</li>
       </ul>
     </div>
-    <div class="col-md-5"><img src="mock1.jpg" alt="Beverages Menu"></div>
+    <div class="col-12 col-md-5 order-1 order-md-2 mb-3 mb-md-0">
+      <img src="mock1.jpg" alt="Beverages Menu" class="img-fluid">
+    </div>
   </div>
 </div>
 
 <!-- Mocktails -->
 <div class="container menu-card mt-5">
-  <div class="row align-items-center">
-    <div class="col-md-5"><img src="bev.jpg" alt="Mocktails Menu"></div>
-    <div class="col-md-7">
+  <div class="row align-items-center flex-column flex-md-row">
+    <div class="col-12 col-md-5 order-1 order-md-1 mb-3 mb-md-0"><img src="bev.jpg" alt="Mocktails Menu" class="img-fluid"></div>
+    <div class="col-12 col-md-7 order-2 order-md-2">
       <h3>Mocktail</h3>
       <ul>
         <li>Blue Heaven</li>
@@ -347,8 +347,8 @@
 
 <!-- Raita -->
 <div class="container menu-card mt-5">
-  <div class="row align-items-center">
-    <div class="col-md-7">
+  <div class="row align-items-center flex-column flex-md-row">
+    <div class="col-12 col-md-7 order-2 order-md-1">
       <h3>Raita</h3>
       <ul>
         <li>Mix Veg Raita</li>
@@ -357,7 +357,7 @@
         <li>Boondi Raita</li>
       </ul>
     </div>
-    <div class="col-md-5"><img src="raita.jpg" alt="Raita Menu"></div>
+    <div class="col-12 col-md-5 order-1 order-md-2 mb-3 mb-md-0"><img src="raita.jpg" alt="Raita Menu" class="img-fluid"></div>
   </div>
 </div>
 
@@ -376,13 +376,15 @@
       </div>
       <div class="col-md-6">
         <h2 class="mt-4">Rangrezza Restaurant & Banquet Hall</h2>
-        <p>"Janta Fridge by Rangrezza" opens every day to help the less fortunate...</p>
-        <p>Phone: +91 123 456 7890</p>
+        <h5 class="mt-4">Follow us on social media</h5>
+        <div class="d-flex gap-3 mt-3">
+          <a href="#" class="text-white">Instagram</a>
+          <a href="#" class="text-white">Facebook</a>
+          <a href="#" class="text-white">YouTube</a>
+        </div>
       </div>
     </div>
   </div>
-  <hr>
-  <p class="text-center">@ Rangrezza Restaurant & Banquet Hall 2025 All rights reserved.<br> Designed & Developed by CodesGesture</p>
 </footer>
 
 <!-- Bootstrap JS -->
